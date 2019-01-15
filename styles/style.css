@@ -1,0 +1,9 @@
+body {
+    background-color: #15629A; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #15629A , #49F1B4);
+}
+.container {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
