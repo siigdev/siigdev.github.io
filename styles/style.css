@@ -1,9 +1,20 @@
 body {
     background-color: #15629A; /* For browsers that do not support gradients */
     background-image: linear-gradient(to right, #15629A , #49F1B4);
+    font-family: Raleway, Arial, sans-serif;
 }
 .container {
+    background-color: #363545;
+    border-radius: 10px;
     width: 500px;
     margin: auto;
+    padding: 5px;
     text-align: center;
+}
+h1 {
+    color: white;
+}
+p.green {
+    color: #49F1B4;
+    display: inline;
 }
