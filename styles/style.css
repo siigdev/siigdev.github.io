@@ -11,6 +11,25 @@ body {
     text-align: center;
 }
 .socialicons {
+    filter: grayscale(1) brightness(0%);
     height: 30px;
     width: 30px;
+}
+.socialicons:hover {
+    filter: grayscale(0) brightness(100%);
+}
+.button {
+    background-color: transparent;
+    border: 1px solid #555555;
+    text-decoration: none;
+    padding: 8px 30px;
+    margin: 5px;
+}
+p.green{
+    display: inline;
+    color: #5DE59E;
+}
+p.blue{
+    display: inline;
+    color: #326098;
 }
