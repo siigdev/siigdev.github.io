@@ -3,12 +3,21 @@ body {
     font-family: Ubuntu, Arial, sans-serif;
     color: #363545
 }
+.about {
+    float: left;
+    width: 500px;
+}
+.profileimage {
+    width: 250px;
+
+}
 .container {
     border-radius: 10px;
-    width: 500px;
     margin: auto;
     padding: 5px;
     text-align: center;
+    display: flex;
+    width: 750px;
 }
 .socialicons {
     -webkit-filter: opacity(100%);
