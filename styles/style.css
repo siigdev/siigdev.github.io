@@ -40,10 +40,11 @@ body {
     border: 1px solid #000;
     text-decoration: none;
     padding: 8px 30px;
-    margin: 5px;
+    margin: 5px 5px 5px 0px;
 }
 .button:hover {
     border: 1px solid #555;
+    color: #555;
 }
 p.green{
     display: inline;
