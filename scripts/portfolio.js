@@ -5,9 +5,9 @@ $(function () {
         $(this).addClass("active");
         selectedClass = $(this).attr("data-rel");
         $("#portfolio").fadeTo(100, 0);
-        $("#portfolio div").not("." + selectedClass).fadeOut();
+        $("#portfolio div").not("." + selectedClass).children().fadeOut();
         setTimeout(function () {
-            $("." + selectedClass).fadeIn().addClass('scale-anm');
+            $("." + selectedClass).find('*').fadeIn();
             $("#portfolio").fadeTo(300, 1);
         }, 300);
 
