@@ -1,11 +1,11 @@
 body {
     background-color: #f7f7f7;
     font-family: Ubuntu, Arial, sans-serif;
-    color: #363545
+    color: #363545 
 }
 .container {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 .content {
     text-align: left;
@@ -19,6 +19,17 @@ body {
 }
 .profileimage img {
     border-radius: 50%;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
 }
 .menu {
     display: flex;
@@ -70,23 +81,9 @@ p.blue{
     display: inline;
     color: #326098;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #portfolio {
     width: 650px;
-    -webkit-column-count: 4; 
+    -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 4;
     column-gap: 10px;
@@ -128,7 +125,7 @@ p.blue{
 }
 .imgcontainer:hover .portfoliocontent {
     opacity: 0.7;
-  }
-  .scale-anm {
+}
+.scale-anm {
     transform: scale(1);
-  }
+}
