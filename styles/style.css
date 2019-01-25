@@ -3,7 +3,7 @@ body {
     font-family: Ubuntu, Arial, sans-serif;
     color: #363545
 }
-.about {
+.container {
     float: left;
     width: 450px;
     text-align: left;
@@ -17,7 +17,7 @@ body {
 .profileimage img {
     border-radius: 50%;
 }
-.container {
+.menu {
     border-radius: 10px;
     margin: auto;
     padding: 5px;
