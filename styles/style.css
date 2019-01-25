@@ -4,9 +4,12 @@ body {
     color: #363545
 }
 .container {
-    float: left;
-    width: 450px;
+    display: flex;
+    justify-content: center; 
+}
+.content {
     text-align: left;
+    width: 500px;
 }
 .profileimage {
     width: 230px;
@@ -18,12 +21,12 @@ body {
     border-radius: 50%;
 }
 .menu {
-    border-radius: 10px;
-    margin: auto;
-    padding: 5px;
-    text-align: center;
     display: flex;
-    width: 670px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
 }
 .socialicons {
     -webkit-filter: opacity(100%);
