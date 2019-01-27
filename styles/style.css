@@ -33,6 +33,10 @@ a:visited {
 a:hover {
     text-decoration: underline;
 }
+.menu .active {
+    text-decoration: underline;
+    color: black;
+}
 .menu {
     display: flex;
     text-align: center;
