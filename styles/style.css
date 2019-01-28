@@ -40,10 +40,11 @@ a:hover {
 .menu {
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: flex-start;
+    align-self: flex-start;
     flex-direction: column;
     width: 200px;
-    margin: 20px;
+    margin-top: 20px;
 }
 .menu ul {
     list-style-type: none;
