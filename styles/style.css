@@ -13,13 +13,10 @@ body {
     text-align: left;
     width: 500px;
 }
-.profileimage {
-    width: 230px;
-    margin: auto;
-    text-align: center;
-    font-size: 10px;
-}
-.profileimage img {
+#profileimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50%;
 }
 a:link {
