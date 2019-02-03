@@ -1,8 +1,11 @@
 $(this.setContent = function () {
     var xmlhttp = new XMLHttpRequest();
+    xmlhttp.responseType = 'json';
     xmlhttp.onreadystatechange = function () {
-        console.log(xmlhttp.responseText);
+        if (this.response != null) {
+            console.log(this.response.posts);
+        }
     };
-    xmlhttp.open("GET", "data/posts/test.md", true);
+    xmlhttp.open("GET", "data/posts/config.json", true);
     xmlhttp.send();
 });

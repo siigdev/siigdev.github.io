@@ -1,0 +1,12 @@
+{
+    "posts": [
+        {
+            "title": "Test post 1",
+            "src": "test.md"
+        },
+        {
+            "title": "Test 2",
+            "src": "test2.md"
+        }
+    ]
+}
