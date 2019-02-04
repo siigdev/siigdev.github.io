@@ -2,11 +2,11 @@
     "posts": [
         {
             "title": "Test post 1",
-            "src": "test.md"
+            "src": "test.html"
         },
         {
             "title": "Test 2",
-            "src": "test2.md"
+            "src": "test2.html"
         }
     ]
 }
