@@ -6,7 +6,7 @@ function App() {
             if (this.response != null) {
                 for (var i in this.response.posts) {
                     let response = this.response.posts[i]
-                    var html = '<div class="post">' + response.title + '</div>'
+                    var html = '<div class="writing"><h1>' + response.title + '</h1><div class="date">' + response.date + '</div>'
                     $(html).appendTo("#posts").one("click", function () {
                         getContent(response.src);
                     });
