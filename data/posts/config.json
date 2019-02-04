@@ -1,12 +1,8 @@
 {
     "posts": [
         {
-            "title": "Test post 1",
-            "src": "test.html"
-        },
-        {
-            "title": "Test 2",
-            "src": "test2.html"
+            "title": "Testing post from markdown",
+            "src": "test.md"
         }
     ]
 }
