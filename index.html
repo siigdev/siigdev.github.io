@@ -7,16 +7,27 @@
       <meta name="author" content="siigdev">
       <link rel="stylesheet" href="styles/style.css">
       <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script>
+            function myFunction() {
+              var x = document.getElementById("sitemenu");
+              if (x.className === "menu") {
+                x.className += " responsive";
+              } else {
+                x.className = "menu";
+              }
+            }
+            </script>
    </head>
    <body>
       <div class="container">
-         <div class="menu">
-            <ul>
-               <li><a href="./index.html" class="active">About</a></li>
-               <li><a href="./portfolio.html">Projects</a></li>
-               <li><a href="./writings.html">Writings</a></li>
-               <li><a href="./resume.html">Resume</a></li>
-            </ul>
+         <div class="menu" id="sitemenu"><a href="./index.html" class="active">About</a><br>
+               <a href="./portfolio.html">Projects</a><br>
+               <a href="./writings.html">Writings</a><br>
+               <a href="./resume.html">Resume</a><br>
+               <div class="icon" onclick="myFunction()">
+                     <i class="fa fa-bars"></i>
+               </div>
          </div>
          <div class="content">
                <img src="data/images/img_avatar.png" alt="Profile Image" width="150px" height="150px" id="profileimg">

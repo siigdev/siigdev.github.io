@@ -1,9 +1,15 @@
 {
     "posts": [
         {
+            "title": "Another test of functionality",
+            "date": "February 5, 2019",
+            "src": "test2.md"
+        },
+        {
             "title": "Testing post from markdown",
             "date": "February 4, 2019",
             "src": "test.md"
         }
+
     ]
 }
