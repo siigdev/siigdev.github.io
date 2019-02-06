@@ -8,7 +8,8 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
+
+    align-items: top;
     margin-top: 50px;
 }
 .content {
@@ -40,7 +41,7 @@ a:hover {
     width: 100px;
     padding-left: 10px;
 }
-.menu .icon {
+.menu .icon{
     display: none;
   }
 @media screen and (max-width: 600px) {
@@ -67,22 +68,25 @@ a:hover {
       margin-top: 0px;
     }
     .content {
-        width: 90%;
+        width: 95%;
+        padding: 10px;
         margin-top: 50px;
     }
 }
 @media screen and (max-width: 600px) {
-    .menu {
+    .menu.responsive {
         padding: 0px;
         margin: 0px;
+        border-bottom: 1px solid #555;
     }
     .menu.responsive a {
-      padding: 5px;
-      font-size: 20px;
+      font-size: 17px;
+      padding-top: 5px;
+      padding-bottom: 5px;
       background-color: #eee;
       float: none;
       display: block;
-      text-align: left;
+      text-align: center;
     }
   }
 .socialicons {
