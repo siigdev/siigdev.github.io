@@ -45,6 +45,9 @@ a:hover {
     display: none;
   }
 @media screen and (max-width: 600px) {
+    html {
+        margin-left: 0; 
+    }
     .menu {
         width: 100%;
     }
@@ -70,7 +73,7 @@ a:hover {
     .content {
         width: 95%;
         padding: 10px;
-        margin-top: 50px;
+        margin-top: 40px;
     }
 }
 @media screen and (max-width: 600px) {
@@ -88,6 +91,13 @@ a:hover {
       display: block;
       text-align: center;
     }
+    .menu.responsive a:hover {
+        text-decoration: none;
+    }
+    .menu.responsive .active{
+        background-color: #ddd;
+        text-decoration: none;
+      }
   }
 .socialicons {
     -webkit-filter: opacity(100%);
@@ -178,7 +188,7 @@ h1 {
     font-weight: bold;
 }
 .writing h1:hover {
-    text-decoration: underline;
+    color: #555;
     cursor: pointer;
 }
 .writing .date {
