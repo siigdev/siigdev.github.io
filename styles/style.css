@@ -21,6 +21,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
 a:link {
     text-decoration: none;
@@ -43,6 +45,11 @@ a:hover {
 }
 .menu .icon{
     display: none;
+  }
+@media print {
+    .menu { 
+        display: none;
+     }
   }
 @media screen and (max-width: 600px) {
     html {
