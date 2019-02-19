@@ -224,5 +224,13 @@ pre {
     padding: 5px;
     background-color: #f4f4f4;
     border: 1px solid #bbbbbb;
-    border-radius: 3px;
+    border-radius: 4px;
+}
+p code {
+    color: #c7254e;
+    background-color: #f9f2f4
+}
+blockquote {
+    border-left: 4px solid #cccccc;
+    padding-left: 5px;
 }
