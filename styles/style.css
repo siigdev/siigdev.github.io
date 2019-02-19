@@ -46,6 +46,11 @@ a:hover {
 .menu .icon{
     display: none;
   }
+@media print {
+    .menu { 
+        display: none;
+     }
+  }
 @media screen and (max-width: 600px) {
     html {
         margin-left: 0; 
