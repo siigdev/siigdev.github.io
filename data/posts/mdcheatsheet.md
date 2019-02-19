@@ -48,6 +48,13 @@ Ordered with offset
 5. Fifth
 ~~~
 
+Task list
+~~~
+- [ ] Not complete
+- [x] Complete
+- [ ] Not complete
+~~~
+
 Code
 -----
 ``` 
@@ -68,6 +75,12 @@ Links
 -----
 ~~~
 [Text of the link](url of the link "alt tag of the link")
+
+Can also be referenced with
+[link text][id]
+[id]
+
+[id]: link
 ~~~
 
 Images
@@ -100,3 +113,12 @@ Blockquotes
 > > Blockquote nested
 ~~~
 
+Other
+-----
+~~~
+:rocket: Emoji support
+
+--- or ___ Horizontal line
+
+<b></b> HTML will most likely also work
+~~~
