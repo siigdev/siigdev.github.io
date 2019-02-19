@@ -30,10 +30,10 @@ a:visited {
     color: black;
 }
 a:hover {
-    text-decoration: underline;
+    font-weight:bold;
 }
 .menu .active {
-    text-decoration: underline;
+    font-weight:bold;
     color: black;
 }
 .menu {

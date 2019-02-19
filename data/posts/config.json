@@ -1,6 +1,11 @@
 {
     "posts": [
         {
+            "title": "Markdown Cheatsheet",
+            "date": "February 19, 2019",
+            "src": "mdcheatsheet.md"
+        },
+        {
             "title": "Another test of functionality",
             "date": "February 5, 2019",
             "src": "test2.md"
