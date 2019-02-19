@@ -72,13 +72,31 @@ Links
 
 Images
 -----
+~~~
+![name of image](url of image "hover image text")
 
+Can also be referenced with
+![name of image][id]
+
+[id]: url of image "hover image text"
+~~~
 
 Tables
 -----
+~~~
+Table header | Table header 2 | Table header 3
+---|---|---
+Cell 1 | Cell 2 | Cell 3
+
+Content can be aligned with colons:
+---:|:---:|---
+right center default
+~~~
 
 Blockquotes
 -----
+~~~
+> Blockquote
+> > Blockquote nested
+~~~
 
-Tables
------
