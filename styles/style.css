@@ -49,10 +49,16 @@ a:hover {
     .menu { 
         display: none;
      }
+    .content {
+        width: 100%;
+    }
   }
 @media screen and (max-width: 600px) {
     html {
         margin-left: 0; 
+    }
+    .content {
+        width: 100%;
     }
     .menu {
         position: fixed;
