@@ -127,16 +127,6 @@ a:hover {
         text-decoration: none;
       }
   }
-.socialicons {
-    -webkit-filter: opacity(100%);
-    filter: opacity(100%);
-    height: 30px;
-    width: 30px;
-}
-.socialicons:hover {
-    -webkit-filter: opacity(80%);
-    filter: opacity(80%);
-}
 .btn {
     background-color: transparent;
     border: 1px solid #000;
