@@ -127,6 +127,9 @@ a:hover {
         text-decoration: none;
       }
   }
+.socialicons {
+    font-size: x-large;
+}
 .btn {
     background-color: transparent;
     border: 1px solid #000;
