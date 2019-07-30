@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Siigdev Portfolio</title>
+      <meta name="description" content="Personal website">
+      <meta name="author" content="siigdev">
+      <link rel="stylesheet" href="styles/style.css">
+      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="scripts/portfolio.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script>
+            function myFunction() {
+              var x = document.getElementById("sitemenu");
+              if (x.className === "menu") {
+                x.className += " responsive";
+              } else {
+                x.className = "menu";
+              }
+            }
+            </script>
+   </head>
+   <body>
+      <div class="container">
+         <div class="menu" id="sitemenu"><a href="./index.html">About</a><br>
+               <a href="./portfolio.html" class="active">Projects</a><br>
+               <a href="./writings.html">Writings</a><br>
+               <a href="./resume.html">Resume</a><br>
+               <div class="icon" onclick="myFunction()">
+                     <i class="fa fa-bars"></i>
+               </div>
+         </div>
+         <div class="content">
+                <h2>Portfolio</h2>
+            <div id="typeselect">
+                <button class="btn active" data-rel="all">Show all</button>
+                <button class="btn" data-rel="python">Python</button>
+                <button class="btn" data-rel="javascript">Javascript</button>
+                <button class="btn" data-rel="java">Java</button>
+                <button class="btn" data-rel="vala">Vala</button>
+                <button class="btn" data-rel="database">Database</button>
+                <button class="btn" data-rel="csharp">C#</button>
+            </div>
+            <div id="portfolio">
+                <div class="imgcontainer scale-anm python all">
+                    <img class="portfolioimg" src="https://cdn.games-images.coolgames.com/flappybird/en/ICON_HP/196_151/eea557e4c78af30f3c10b18f13c1cf60/flappybird.jpg">
+                    <div class="portfoliocontent"><p>Python</p></div>
+                </div>
+                <div class="imgcontainer scale-anm all">
+                    <img class="portfolioimg" src="https://cdn.games-images.coolgames.com/flappybird/en/ICON_HP/196_151/eea557e4c78af30f3c10b18f13c1cf60/flappybird.jpg">
+                    <div class="portfoliocontent"><p>All</p></div>
+                </div>
+                <div class="imgcontainer scale-anm vala all">
+                        <img class="portfolioimg" src="https://cdn.games-images.coolgames.com/flappybird/en/ICON_HP/196_151/eea557e4c78af30f3c10b18f13c1cf60/flappybird.jpg">
+                        <div class="portfoliocontent"><p>All1</p></div>
+                    </div>
+                <div class="imgcontainer scale-anm python all">
+                    <img class="portfolioimg" src="https://cdn.games-images.coolgames.com/flappybird/en/ICON_HP/196_151/eea557e4c78af30f3c10b18f13c1cf60/flappybird.jpg">
+                    <div class="portfoliocontent"><p>python</p></div>
+                </div>
+                <div class="imgcontainer scale-anm all">
+                    <img class="portfolioimg" src="https://cdn.games-images.coolgames.com/flappybird/en/ICON_HP/196_151/eea557e4c78af30f3c10b18f13c1cf60/flappybird.jpg">
+                    <div class="portfoliocontent"><p>All</p></div>
+                </div>
+                <div class="imgcontainer scale-anm vala all">
+                    <img class="portfolioimg" src="https://cdn.games-images.coolgames.com/flappybird/en/ICON_HP/196_151/eea557e4c78af30f3c10b18f13c1cf60/flappybird.jpg">
+                    <div class="portfoliocontent"><p>vala</p></div>
+                </div>
+                <div class="imgcontainer scale-anm vala all">
+                    <img class="portfolioimg" src="https://cdn.games-images.coolgames.com/flappybird/en/ICON_HP/196_151/eea557e4c78af30f3c10b18f13c1cf60/flappybird.jpg">
+                    <div class="portfoliocontent"><p>vala</p></div>
+                </div>
+            
+            </div>
+         </div>
+      </div>
+      </div>
+   </body>
+</html>
