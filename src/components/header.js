@@ -2,11 +2,13 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+
+
 const Header = ({ siteTitle }) => (
   <header>
     <div>
-        <Link to="/">About</Link>
-        <Link to="/blog">Blog</Link>
+        <Link to="/" activeClassName="active">about</Link>
+        <Link to="/blog" activeClassName="active">blog</Link>
     </div>
   </header>
 )

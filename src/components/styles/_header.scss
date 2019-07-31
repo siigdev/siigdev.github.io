@@ -1,17 +1,23 @@
+@import "./variables";
+
 header {
-    color: $primaryTextColor;
+    margin: 0 auto;
+    max-width: 550px;
+    padding: 5rem 0 3rem 0;
     a {
       color: $primaryTextColor;
       text-decoration: none;
       outline: none !important;
-      padding: 2px 5px;
+      padding: 2px;
       transition: all .25s ease-in-out;
+      margin: 0px 10px 0px 0px;
       &:hover {
         background-color: $hoverBackground;
         color: $hoverTextColor;
       }
-      &:active {
-        background-color: $hoverBackground;
+      &.active {
+        color: $hoverTextColor;
+        background-color: $activeBackground;
       }
     }
   }

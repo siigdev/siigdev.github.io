@@ -1,15 +1,12 @@
-$primaryTextColor: #777;
-$secondaryTextColor: #6f92ba;
-$primaryBackground: #f7f7f7;
-$hoverBackground: #777;
-$hoverTextColor: #f7f7f7;
-
+@import "./variables";
 @import "./header";
+@import "./container";
 
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  overflow-y: scroll;
 }
 body {
   margin: 0;
