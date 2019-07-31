@@ -1,0 +1,17 @@
+header {
+    color: $primaryTextColor;
+    a {
+      color: $primaryTextColor;
+      text-decoration: none;
+      outline: none !important;
+      padding: 2px 5px;
+      transition: all .25s ease-in-out;
+      &:hover {
+        background-color: $hoverBackground;
+        color: $hoverTextColor;
+      }
+      &:active {
+        background-color: $hoverBackground;
+      }
+    }
+  }

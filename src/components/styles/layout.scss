@@ -1,0 +1,20 @@
+$primaryTextColor: #777;
+$secondaryTextColor: #6f92ba;
+$primaryBackground: #f7f7f7;
+$hoverBackground: #777;
+$hoverTextColor: #f7f7f7;
+
+@import "./header";
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  background-color: $primaryBackground;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $primaryTextColor;
+}
