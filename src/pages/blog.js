@@ -1,7 +1,14 @@
 import React from "react"
 import { graphql } from "gatsby"
-import PostLink from "../components/post-link"
 import Layout from "../components/layout"
+
+const PostLink = ({ post }) => (
+  <div>
+    <Link to={post.frontmatter.path}>
+      {post.frontmatter.title} ({post.frontmatter.date})
+    </Link>
+  </div>
+)
 
 const IndexPage = ({
   data: {
