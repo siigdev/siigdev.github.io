@@ -2,12 +2,14 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
+import SEO from "../components/seo"
 
 const PostLink = ({ post }) => (
   <div className="blogPosts">
     <Link to={post.frontmatter.path}>
       {post.frontmatter.title}
     </Link>
+
     {post.frontmatter.date}
   </div>
 )
@@ -20,7 +22,7 @@ const IndexPage = ({
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
-  return <Layout>{Posts}</Layout>
+  return <Layout><SEO title="Blog" />{Posts}</Layout>
 }
 export default IndexPage
 export const pageQuery = graphql`
