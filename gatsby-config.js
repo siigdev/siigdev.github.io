@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Siigdev Site`,
+    titleTemplate: "%s · Personal website and blog",
     description: `Personal portfolio and blog by Software Engineering Master student Sebastian, Siigdev.`,
-    author: `@gatsbyjs`,
+    author: `Sebastian Nørgaard`,
+    url: "https://www.siigdev.github.io"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -19,7 +19,7 @@ export default function Template({
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
             />
-            <div class="goBackFromPost"><Link to="/blog">Go back to blog</Link></div>
+            <div className="goBackFromPost"><Link to="/blog">Go back to blog</Link></div>
         </div>
         </div>
     </Layout>
