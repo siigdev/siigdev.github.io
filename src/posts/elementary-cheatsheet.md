@@ -1,5 +1,4 @@
 ---
-path: "/posts/elementary-cheatsheet"
 date: "2019-07-31"
 title: "Elementary Cheatsheet"
 ---

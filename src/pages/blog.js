@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const PostLink = ({ post }) => (
   <div className="blogPosts">
-    <Link to={post.frontmatter.path}>
+    <Link to={`/blog/${post.fields.slug}`}>
       {post.frontmatter.title}
     </Link>
 
@@ -33,8 +33,10 @@ export const pageQuery = graphql`
           id
           frontmatter {
             date(formatString: "DD-MM-YYYY")
-            path
             title
+          }
+          fields {
+            slug
           }
         }
       }

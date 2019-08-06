@@ -1,5 +1,4 @@
 ---
-path: "/posts/markdown-cheatsheet"
 date: "2019-07-31"
 title: "Markdown Cheatsheet"
 ---

@@ -1,4 +1,17 @@
 const path = require(`path`)
+
+exports.onCreateNode = ({ node, actions }) => {
+  const { createNodeField } = actions
+  if (node.internal.type === `MarkdownRemark`) {
+    const slug = path.basename(node.fileAbsolutePath, '.md')
+    createNodeField({
+      node,
+      name: `slug`,
+      value: slug,
+    })
+  }
+}
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
   const blogPostTemplate = path.resolve(`src/templates/post.js`)
@@ -10,8 +23,8 @@ exports.createPages = ({ actions, graphql }) => {
       ) {
         edges {
           node {
-            frontmatter {
-              path
+            fields {
+              slug
             }
           }
         }
@@ -23,9 +36,11 @@ exports.createPages = ({ actions, graphql }) => {
     }
     return result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
-        path: node.frontmatter.path,
+        path: `/blog/${node.fields.slug}`,
         component: blogPostTemplate,
-        context: {}, // additional data can be passed via context
+        context: {
+          slug: node.fields.slug
+        },
       })
     })
   })

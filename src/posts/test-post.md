@@ -1,5 +1,4 @@
 ---
-path: "/posts/test-post"
 date: "2019-07-31"
 title: "Test post"
 ---
