@@ -5,9 +5,9 @@ import { Link } from "gatsby"
 import SEO from "../components/seo"
 
 export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
+  data, 
 }) {
-  const { markdownRemark } = data // data.markdownRemark holds our post data
+  const { markdownRemark } = data 
   const { frontmatter, html } = markdownRemark
   return (
       <Layout><SEO title= {frontmatter.title} />
@@ -30,7 +30,7 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD-MM-YYYY")
         title
       }
       fields {
