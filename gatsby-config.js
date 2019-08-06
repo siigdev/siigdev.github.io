@@ -4,12 +4,26 @@ module.exports = {
     titleTemplate: "%s · Personal website and blog",
     description: `Personal portfolio and blog by Software Engineering Master student Sebastian, Siigdev.`,
     author: `Sebastian Nørgaard`,
-    url: "https://www.siigdev.github.io"
+    siteUrl: `https://www.siigdev.github.io`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-feed`,
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-relative-images`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 550,
+              linkImagesToOriginal: false
+            }
+          }
+        ]
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
