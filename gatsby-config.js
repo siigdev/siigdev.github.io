@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Siigdev Site`,
+    title: `Siigdev`,
     titleTemplate: "%s · Personal website and blog",
     description: `Personal portfolio and blog by Software Engineering Master student Sebastian, Siigdev.`,
-    author: `Sebastian Nørgaard`,
+    author: `Sebastian Nørgaard  <pwnage@live.dk>`,
     siteUrl: `https://www.siigdev.github.io`
   },
   plugins: [
