@@ -32,6 +32,27 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-lunr',
+      options: {
+        languages: [{ name: 'en' }],
+        fields: [
+          { name: 'title', store: true, attributes: { boost: 20 } },
+          { name: 'content' },
+          { name: 'url', store: true },
+          { name: 'date', store: true }
+        ],
+        resolvers: {
+          MarkdownRemark: {
+            title: node => node.frontmatter.title,
+            content: node => node.rawMarkdownBody,
+            url: node => node.fields.slug,
+            date: node => node.frontmatter.date
+          },
+        },
+      },
+    }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `posts`,
