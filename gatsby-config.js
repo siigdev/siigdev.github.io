@@ -49,8 +49,8 @@ module.exports = {
             date: node => node.frontmatter.date
           },
         },
+        filename: 'search_index.json',
       },
-    }
     },
     {
       resolve: `gatsby-source-filesystem`,
