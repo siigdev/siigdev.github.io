@@ -15,6 +15,7 @@ const Header = ({ siteTitle }) => (
     <div>
       <Link to="/" activeClassName="active">about</Link>
       <Link to="/blog" getProps={isPartiallyActive} activeClassName="active">blog</Link>
+      <Link to="/search" getProps={isPartiallyActive} activeClassName="active">search</Link>
     </div>
   </header>
 )
