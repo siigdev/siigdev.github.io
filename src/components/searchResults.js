@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchResults = () => (
     <section aria-label="Search results for all posts">
-      <h2>Found X posts on Y</h2>
+      <h2 aria-live="assertive">Found X posts on Y</h2>
       <ol>
         <li>
           <h3><a href="#">Post 1</a></h3>
