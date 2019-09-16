@@ -1,21 +1,36 @@
 import React from 'react';
 
-const SearchResults = () => (
-    <section aria-label="Search results for all posts">
-      <h2 aria-live="assertive">Found X posts on Y</h2>
-      <ol>
-        <li>
-          <h3><a href="#">Post 1</a></h3>
-          <small>May 26th, 2019</small>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ea ipsum adipisci assumenda rerum amet praesentium totam veritatis facilis! Eveniet, quae? Dicta, nihil vitae. Laudantium cum ex placeat vel optio!</p>
-        </li>
-        <li>
-          <h3><a href="#">Post 1</a></h3>
-          <small>May 26th, 2019</small>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ea ipsum adipisci assumenda rerum amet praesentium totam veritatis facilis! Eveniet, quae? Dicta, nihil vitae. Laudantium cum ex placeat vel optio!</p>
-        </li>
-      </ol>
-    </section>
-  );
+const SearchResults = ({ results, query }) => (
+  <section aria-label="Search results for all posts">
+    {!!results.length && query &&
+      <h2
+        className="search-results-count"
+        id="search-results-count"
+        aria-live="assertive"
+      >Found {results.length} posts on "{query}"</h2>
+    }
+    {!!results.length &&
+  <ol className="search-results-list">
+    {results.map(({
+      title,
+      url,
+      date,
+      description
+    }
+) => (
+      <li key={title}>
+        <h3 className="search-results-list__heading">
+          <a href={url} className="search-results-list__link">
+            {title}
+          </a>
+        </h3>
+        <small>{(new Date(date).toLocaleString('en-GB'))}</small>
+        {description && <p>{description}</p>}
+      </li>
+    ))}
+  </ol>
+}
+  </section>
+);
 
 export default SearchResults;
