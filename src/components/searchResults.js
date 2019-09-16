@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "gatsby"
 
 const SearchResults = ({ results, query }) => (
   <section aria-label="Search results for all posts">
@@ -14,18 +15,16 @@ const SearchResults = ({ results, query }) => (
     {results.map(({
       title,
       url,
-      date,
-      description
+      date
     }
 ) => (
       <li key={title}>
         <h3 className="search-results-list__heading">
-          <a href={url} className="search-results-list__link">
+        <Link to={`/blog/${url}`}>
             {title}
-          </a>
+          </Link>
         </h3>
         <small>{(new Date(date).toLocaleString('en-GB'))}</small>
-        {description && <p>{description}</p>}
       </li>
     ))}
   </ol>
