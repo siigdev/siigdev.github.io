@@ -19,12 +19,13 @@ const SearchResults = ({ results, query }) => (
     }
 ) => (
       <li key={title}>
-        <h3 className="search-results-list__heading">
-        <Link to={`/blog/${url}`}>
+        <div className="blogPosts">
+        <Link key={title} to={`/blog/${url}`}>
             {title}
           </Link>
-        </h3>
-        <small>{(new Date(date).toLocaleString('en-GB'))}</small>
+        
+        {date}
+        </div>
       </li>
     ))}
   </ol>

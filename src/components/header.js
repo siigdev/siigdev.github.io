@@ -12,11 +12,11 @@ const isPartiallyActive = ({
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div>
-      <Link to="/" activeClassName="active">about</Link>
-      <Link to="/blog" getProps={isPartiallyActive} activeClassName="active">blog</Link>
-      <Link to="/search" getProps={isPartiallyActive} activeClassName="active">search</Link>
-    </div>
+    
+    <div><Link to="/" activeClassName="active">about</Link></div>
+    <div><Link to="/blog" getProps={isPartiallyActive} activeClassName="active">blog</Link></div>
+    <div><Link to="/search" getProps={isPartiallyActive} activeClassName="active"><b>🔍</b></Link></div>
+    
   </header>
 )
 

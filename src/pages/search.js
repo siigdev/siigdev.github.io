@@ -16,7 +16,6 @@ const Search = ({
         const refs = lunr.en.index.search(searchQuery);
         const posts = refs.map(({ ref }) => lunr.en.store[ref]);
         setResults(posts);
-        console.log(results)
       });
     }
   }, [location.search]);
