@@ -22,7 +22,6 @@ const Search = ({
 
   return (
     <Layout location={location}>
-      <SearchForm query={searchQuery} />
       <SearchResults
         query={searchQuery}
         results={results}

@@ -10,6 +10,10 @@ const SearchResults = ({ results, query }) => (
         aria-live="assertive"
       >Found {results.length} posts on "{query}"</p>
     }
+    {(results.length == 0) &&
+      <p>No posts found based on your search.</p>
+      
+    }
     {!!results.length &&
   <div className="search-results-list">
     {results.map(({
