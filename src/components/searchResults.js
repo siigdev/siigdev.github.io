@@ -8,10 +8,10 @@ const SearchResults = ({ results, query }) => (
         className="search-results-count"
         id="search-results-count"
         aria-live="assertive"
-      >Found {results.length} posts on "{query}"</p>
+      >Found {results.length} posts on search "{query}".</p>
     }
-    {(results.length == 0) &&
-      <p>No posts found based on your search.</p>
+    {(results.length === 0) &&
+      <p>No posts found based on search "{query}".</p>
       
     }
     {!!results.length &&
@@ -22,7 +22,6 @@ const SearchResults = ({ results, query }) => (
       date
     }
 ) => (
-      <div key={title}>
         <div className="blogPosts">
         <Link key={title} to={`/blog/${url}`}>
             {title}
@@ -30,7 +29,6 @@ const SearchResults = ({ results, query }) => (
         
         {date}
         </div>
-      </div>
     ))}
   </div>
 }

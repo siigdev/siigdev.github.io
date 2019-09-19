@@ -11,7 +11,6 @@ const SearchForm = ({ query }) => (
         onChange={(e) => navigate(`/search?keywords=${encodeURIComponent(e.target.value)}`)}
         value={query}
       />
-      <button type="submit">Submit</button>
     </form>
   );
 

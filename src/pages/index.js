@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    Hello! I'm Sebastian Nørgaard.
+    <p>Hello! I'm Sebastian Nørgaard.</p>
     <p>A Master student in Software Engineering at the University of Southern Denmark, Odense. 
       Will be graduating in June 2020. Generally enthusiastic about anything software-related, 
       and very determined to continously improve and learn new and exciting technologies.</p>

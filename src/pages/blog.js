@@ -22,7 +22,7 @@ const IndexPage = ({
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date)
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
-  return <Layout><SEO title="Blog" />{Posts}</Layout>
+  return <Layout><br></br><SEO title="Blog" />{Posts}</Layout>
 }
 export default IndexPage
 export const pageQuery = graphql`
