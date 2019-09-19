@@ -4,21 +4,21 @@ import { Link } from "gatsby"
 const SearchResults = ({ results, query }) => (
   <section aria-label="Search results for all posts">
     {!!results.length && query &&
-      <h2
+      <p
         className="search-results-count"
         id="search-results-count"
         aria-live="assertive"
-      >Found {results.length} posts on "{query}"</h2>
+      >Found {results.length} posts on "{query}"</p>
     }
     {!!results.length &&
-  <ol className="search-results-list">
+  <div className="search-results-list">
     {results.map(({
       title,
       url,
       date
     }
 ) => (
-      <li key={title}>
+      <div key={title}>
         <div className="blogPosts">
         <Link key={title} to={`/blog/${url}`}>
             {title}
@@ -26,9 +26,9 @@ const SearchResults = ({ results, query }) => (
         
         {date}
         </div>
-      </li>
+      </div>
     ))}
-  </ol>
+  </div>
 }
   </section>
 );
