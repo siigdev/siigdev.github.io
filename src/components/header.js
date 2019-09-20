@@ -16,7 +16,6 @@ const Header = ({ siteTitle }) => (
     
     <div><Link to="/" activeClassName="active">about</Link></div>
     <div><Link to="/blog" getProps={isPartiallyActive} activeClassName="active">blog</Link></div>
-    <div><Link to="/search" getProps={isPartiallyActive} activeClassName="active"><b><span role="img" aria-label="Search">🔍</span></b></Link></div>
     <SearchForm/>
   </header>
 )

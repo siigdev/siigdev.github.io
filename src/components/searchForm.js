@@ -1,8 +1,11 @@
 import React from 'react';
 import { navigate } from 'gatsby';
+import searchIcon from '../images/siigdev-icon.png';
 
 const SearchForm = ({ query }) => (
-    <form role="search" method="GET">
+    <div id="searchBox">
+      <form role="search" method="GET">
+      <span role="img" aria-label="Search" id="search-label">🔍</span>
       <input
         type="search"
         id="search-input"
@@ -11,7 +14,10 @@ const SearchForm = ({ query }) => (
         onChange={(e) => navigate(`/search?keywords=${encodeURIComponent(e.target.value)}`)}
         value={query}
       />
+      
     </form>
+    
+    </div>
   );
 
 export default SearchForm;
