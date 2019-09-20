@@ -15,22 +15,22 @@ const SearchResults = ({ results, query }) => (
       
     }
     {!!results.length &&
-  <div className="search-results-list">
+  <ol className="search-results-list">
     {results.map(({
       title,
       url,
       date
     }
 ) => (
-        <div className="blogPosts">
+        <li key={title} className="blogPosts">
         <Link key={title} to={`/blog/${url}`}>
             {title}
           </Link>
         
         {date}
-        </div>
+        </li>
     ))}
-  </div>
+  </ol>
 }
   </section>
 );

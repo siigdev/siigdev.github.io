@@ -1,6 +1,5 @@
 import React from 'react';
 import { navigate } from 'gatsby';
-import searchIcon from '../images/siigdev-icon.png';
 
 const SearchForm = ({ query }) => (
     <div id="searchBox">
@@ -11,7 +10,7 @@ const SearchForm = ({ query }) => (
         id="search-input"
         name="keywords"
         aria-controls="search-results-count"
-        onChange={(e) => navigate(`/search?keywords=${encodeURIComponent(e.target.value)}`)}
+        onChange={(e) => {navigate(`/search?keywords=${encodeURIComponent(e.target.value)}`)}}
         value={query}
       />
       
