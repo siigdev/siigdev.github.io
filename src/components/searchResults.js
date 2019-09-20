@@ -7,7 +7,7 @@ const SearchResults = ({ results, query }) => (
       <p
         className="search-results-count"
         id="search-results-count"
-        aria-live="assertive"
+        aria-live="polite"
       >Found {results.length} posts on search "{query}".</p>
     }
     {(results.length === 0) &&
