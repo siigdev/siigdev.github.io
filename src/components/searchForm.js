@@ -17,7 +17,7 @@ const SearchForm = ({ query }) => (
         type="search"
         id="search-input"
         name="keywords"
-        autocomplete="off"
+        autoComplete="off"
         aria-controls="search-results-count"
         value={query}
       />
