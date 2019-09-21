@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Layout from "../components/layout";
 import SearchResults from "../components/searchResults";
+import SEO from "../components/seo"
 
 const Search = ({
   data,
@@ -21,6 +22,7 @@ const Search = ({
 
   return (
     <Layout location={location}>
+      <SEO title="Search" />
       <SearchResults
         query={searchQuery}
         results={results}

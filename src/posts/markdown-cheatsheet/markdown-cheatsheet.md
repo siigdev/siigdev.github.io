@@ -1,5 +1,5 @@
 ---
-date: "2019-07-31"
+date: "31-07-2019"
 title: "Markdown Cheatsheet"
 ---
 

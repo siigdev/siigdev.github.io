@@ -11,7 +11,7 @@ const SearchResults = ({ results, query }) => (
       >Found {results.length} posts on search "{query}".</p>
     }
     {(results.length === 0) &&
-      <p>No posts found based on search "{query}".</p>
+      <p>No posts found on search "{query}".</p>
       
     }
     {!!results.length &&

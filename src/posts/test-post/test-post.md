@@ -1,5 +1,5 @@
 ---
-date: "2019-07-30"
+date: "30-07-2019"
 title: "Test post"
 ---
 Lorem markdownum stetimus; capillis frondes cepit. Nec celer capillos amentis
