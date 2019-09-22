@@ -3,7 +3,7 @@
 header {
     margin: 0 auto;
     max-width: 550px;
-    padding: 5rem 0px 1rem 0px;
+    padding: 5rem 5px 1rem 5px;
     display: flex;
     justify-content: space-between;
     div:last-child {
@@ -54,11 +54,8 @@ header {
     z-index: -2;
   }
 
-  /* clears the 'X' from Internet Explorer */
 input[type=search]::-ms-clear {  display: none; width : 0; height: 0; }
 input[type=search]::-ms-reveal {  display: none; width : 0; height: 0; }
-
-/* clears the 'X' from Chrome */
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
