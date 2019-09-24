@@ -1,10 +1,10 @@
 import React from 'react';
 import { navigate } from 'gatsby';
+import searchicon from "../images/search-icon.svg"
 
 const SearchForm = ({ query }) => (
     <div id="searchBox">
       <form role="search" method="GET" onSubmit={(event) => {event.preventDefault()}}>
-      <span role="img" aria-label="Search" id="search-label">🔍</span>
       <input 
         type="search"
         id="search-input"
@@ -15,6 +15,8 @@ const SearchForm = ({ query }) => (
             navigate(`/search?keywords=${encodeURIComponent(event.target.value)}`)}}
           }
         value={query}
+        style={{backgroundImage: `url(${searchicon})`, backgroundSize:`20px 20px`, backgroundRepeat:`no-repeat`}
+        }
       />
       
     </form>

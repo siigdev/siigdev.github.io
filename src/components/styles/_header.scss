@@ -39,6 +39,7 @@ header {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     padding-left: 20px;
+    background-image: url("/images/search-icon.svg");
   }
   input[type=search]:focus {
     width: 150px;
