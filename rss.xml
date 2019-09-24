@@ -1,48 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Siigdev]]></title><description><![CDATA[Personal portfolio and blog by Software Engineering Master student Sebastian, Siigdev.]]></description><link>https://www.siigdev.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Sep 2019 21:04:30 GMT</lastBuildDate><item><title><![CDATA[Elementary Cheatsheet]]></title><description><![CDATA[General Upgrade and update Allow PPA's (Personal Packages Archives) Prevent overheat and save battery time Adding Elementary Tweaks…]]></description><link>https://www.siigdev.github.ioelementary-cheatsheet</link><guid isPermaLink="false">https://www.siigdev.github.ioelementary-cheatsheet</guid><pubDate>Thu, 01 Aug 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;General&lt;/h2&gt;
-&lt;p&gt;Upgrade and update&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo apt-get update &amp;#x26;&amp;#x26; sudo apt-get upgrade
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Allow PPA&apos;s (Personal Packages Archives)&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo apt-get install software-properties-common
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Prevent overheat and save battery time&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo apt install tlp tlp-rdw 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Adding Elementary Tweaks (Extended system settings)&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo add-apt-repository ppa:philip.scott/elementary-tweaks
-sudo apt-get update
-sudo apt-get install elementary-tweaks
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Preloading often used applications&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo apt-get install preload
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;Applications&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;sudo apt install vlc // Video Player
-sudo apt install libreoffice // Office Package
-sudo apt install transmission // Torrent client
-sudo apt install steam // Game client
-sudo apt-get install google-chrome-stable // Google Chrome
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;Tweaking&lt;/h2&gt;
-&lt;p&gt;Remove the guest session&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo sh -c &quot;echo &apos;allow-guest=false&apos; &gt;&gt; 
-/usr/share/lightdm/lightdm.conf.d/40-pantheon-greeter.conf&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Remove round corners of the screen&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;gsettings set org.pantheon.desktop.gala.mask-corners enable false
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Disable automatic suspend&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;gsettings set org.gnome.desktop.session idle-delay 0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Remove language icon in panel&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo apt remove --purge wingpanel-indicator-keyboard 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Adding Neofetch to the terminal&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo add-apt-repository ppa:dawidd0811/neofetch
-sudo apt update
-sudo apt install neofetch
-sudo nano ~/.bashrc // add neofetch in there
-&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[Markdown Cheatsheet]]></title><description><![CDATA[Headers Emphasis List Unordered list Ordered list Task list Code Links Images Tables Blockquotes Other]]></description><link>https://www.siigdev.github.iomarkdown-cheatsheet</link><guid isPermaLink="false">https://www.siigdev.github.iomarkdown-cheatsheet</guid><pubDate>Wed, 31 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Headers&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Siigdev]]></title><description><![CDATA[Personal portfolio and blog by Software Engineering Master student Sebastian, Siigdev.]]></description><link>https://www.siigdev.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 24 Sep 2019 18:25:09 GMT</lastBuildDate><item><title><![CDATA[Markdown Cheatsheet]]></title><description><![CDATA[Headers Emphasis List Unordered list Ordered list Task list Code Links Images Tables Blockquotes Other]]></description><link>https://www.siigdev.github.iomarkdown-cheatsheet</link><guid isPermaLink="false">https://www.siigdev.github.iomarkdown-cheatsheet</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;h2&gt;Headers&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;# H1
 ## H2
 ### H3
@@ -129,7 +85,7 @@ right center default
 
 &amp;#x3C;b&gt;&amp;#x3C;/b&gt; HTML will most likely also work
 &lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[Test post]]></title><description><![CDATA[Lorem markdownum stetimus; capillis frondes cepit. Nec celer capillos amentis
-regionibus is plurimus mirabere vos siquis tabellis pharetrae…]]></description><link>https://www.siigdev.github.iotest-post</link><guid isPermaLink="false">https://www.siigdev.github.iotest-post</guid><pubDate>Tue, 30 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Lorem markdownum stetimus; capillis frondes cepit. Nec celer capillos amentis
+regionibus is plurimus mirabere vos siquis tabellis pharetrae…]]></description><link>https://www.siigdev.github.iotest-post</link><guid isPermaLink="false">https://www.siigdev.github.iotest-post</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;p&gt;Lorem markdownum stetimus; capillis frondes cepit. Nec celer capillos amentis
 regionibus is plurimus mirabere vos siquis tabellis pharetrae irata. His &lt;a href=&quot;http://ambiguumper.io/curaque.html&quot;&gt;alii
 Zancle&lt;/a&gt; aures cum, fore concita, redemit
 decrescunt talibus.&lt;/p&gt;
@@ -197,4 +153,48 @@ tectus!&lt;/p&gt;
 gente idem dederat quo opaci numerem stratis nigro fratres avidissima Iliacas,
 quin in: bellis ferit et. Pectora terga utque si viribus &lt;strong&gt;vestibus&lt;/strong&gt; parens
 instabilesque non Leonis flavum it Turnus manusque Elin pars quoque fecit;
-urget! Parvi passis: visus vittis in Maeoniam fletus ipsos: Matri, cadunt.&lt;/p&gt;</content:encoded></item></channel></rss>
+urget! Parvi passis: visus vittis in Maeoniam fletus ipsos: Matri, cadunt.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Elementary Cheatsheet]]></title><description><![CDATA[General Upgrade and update Allow PPA's (Personal Packages Archives) Prevent overheat and save battery time Adding Elementary Tweaks…]]></description><link>https://www.siigdev.github.ioelementary-cheatsheet</link><guid isPermaLink="false">https://www.siigdev.github.ioelementary-cheatsheet</guid><pubDate>Mon, 07 Jan 2019 23:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;General&lt;/h2&gt;
+&lt;p&gt;Upgrade and update&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt-get update &amp;#x26;&amp;#x26; sudo apt-get upgrade
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Allow PPA&apos;s (Personal Packages Archives)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt-get install software-properties-common
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Prevent overheat and save battery time&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt install tlp tlp-rdw 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Adding Elementary Tweaks (Extended system settings)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo add-apt-repository ppa:philip.scott/elementary-tweaks
+sudo apt-get update
+sudo apt-get install elementary-tweaks
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Preloading often used applications&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt-get install preload
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Applications&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt install vlc // Video Player
+sudo apt install libreoffice // Office Package
+sudo apt install transmission // Torrent client
+sudo apt install steam // Game client
+sudo apt-get install google-chrome-stable // Google Chrome
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Tweaking&lt;/h2&gt;
+&lt;p&gt;Remove the guest session&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo sh -c &quot;echo &apos;allow-guest=false&apos; &gt;&gt; 
+/usr/share/lightdm/lightdm.conf.d/40-pantheon-greeter.conf&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Remove round corners of the screen&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;gsettings set org.pantheon.desktop.gala.mask-corners enable false
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Disable automatic suspend&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;gsettings set org.gnome.desktop.session idle-delay 0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Remove language icon in panel&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt remove --purge wingpanel-indicator-keyboard 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Adding Neofetch to the terminal&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo add-apt-repository ppa:dawidd0811/neofetch
+sudo apt update
+sudo apt install neofetch
+sudo nano ~/.bashrc // add neofetch in there
+&lt;/code&gt;&lt;/pre&gt;</content:encoded></item></channel></rss>
