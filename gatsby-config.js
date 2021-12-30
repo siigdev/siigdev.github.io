@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Siigdev`,
     titleTemplate: "%s · Personal website and blog",
-    description: `Personal portfolio and blog by Software Engineering Master student Sebastian, Siigdev.`,
+    description: `Personal portfolio and blog by Software Engineer Sebastian, Siigdev.`,
     author: `Sebastian Nørgaard  <pwnage@live.dk>`,
     siteUrl: `https://www.siigdev.github.io`
   },
@@ -12,6 +12,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `gatsby-remark-emoji`,
           `gatsby-remark-relative-images`,
           {
             resolve: `gatsby-remark-images`,

@@ -52,7 +52,7 @@ function SEO({ description, lang, meta, title }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  description: `Personal portfolio and blog by Software Engineering Master student Sebastian, Siigdev.`,
+  description: `Personal portfolio and blog by Software Engineer Sebastian, Siigdev.`,
 }
 
 SEO.propTypes = {
