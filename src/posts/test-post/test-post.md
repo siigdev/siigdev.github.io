@@ -3,8 +3,7 @@ date: "30-07-2019"
 title: "Test post"
 ---
 Lorem markdownum stetimus; capillis frondes cepit. Nec celer capillos amentis
-regionibus is plurimus mirabere vos siquis tabellis pharetrae irata. His [alii
-Zancle](http://ambiguumper.io/curaque.html) aures cum, fore concita, redemit
+regionibus is plurimus mirabere vos siquis tabellis pharetrae irata. His [test Link](https://www.google.com/search?q=lorem+ipsum) aures cum, fore concita, redemit
 decrescunt talibus.
 
     pramWebUndo.dock_p(hard);
