@@ -4,6 +4,10 @@ header {
     margin: 0 auto;
     max-width: 550px;
     padding: 5rem 5px 1rem 5px;
+    position: sticky;
+    top: -4.5rem;
+    z-index: 2;
+    background-color: $primaryBackground;
     display: flex;
     justify-content: space-between;
     div:last-child {
