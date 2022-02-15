@@ -15,11 +15,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $primaryTextColor;
-  padding: 0 5 5 5;
 }
 .goBackFromPost {
   text-align: center;
-  margin-bottom: 15px;
+  padding-bottom: 5rem;
 }
 h1, h2, h3, h4, h5, h6 {
   margin: 0px;
@@ -29,14 +28,14 @@ code {
   white-space: pre-wrap;
   padding: 5px;
   border-radius: 4px;
-  background-color: #f2f2f2;
+  background-color: $secondaryBackground;
 }
 p code {
   display: inline;
-  background-color: #f2f2f2;
+  background-color: $secondaryBackground;
 }
 blockquote {
-  border-left: 4px solid #cccccc;
+  border-left: 4px solid $activeBackground;
   padding-left: 5px;
 }
 ol {
@@ -46,5 +45,5 @@ ol {
 hr {
   border: 0;
   height: 1px;
-  background-color:#cccccc;
+  background-color: $activeBackground;
 }
