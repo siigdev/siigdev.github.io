@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
 @import "./variables";
 @import "./header";
 @import "./container";
@@ -8,6 +8,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   overflow-y: scroll;
+  font-display: swap;
 }
 body {
   margin: 0;
