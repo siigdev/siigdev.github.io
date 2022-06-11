@@ -6,19 +6,9 @@ import Header from "./header";
 import "./styles/layout.scss";
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
-
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header />
       <div className="container">
         <main>{children}</main>
       </div>

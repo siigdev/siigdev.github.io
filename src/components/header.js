@@ -7,7 +7,7 @@ const isPartiallyActive = ({ isPartiallyCurrent }) => {
   return isPartiallyCurrent ? { className: "has-child active top" } : null;
 };
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header>
     <div>
       <Link to="/" activeClassName="active">
@@ -22,13 +22,5 @@ const Header = ({ siteTitle }) => (
     <SearchForm />
   </header>
 );
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-};
-
-Header.defaultProps = {
-  siteTitle: ``,
-};
 
 export default Header;
