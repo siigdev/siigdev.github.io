@@ -8,9 +8,9 @@ const SearchForm = ({ query }) => (
       <input 
         type="search"
         id="search-input"
+        aria-label='Search input'
         name="keywords"
         autoComplete="off"
-        aria-controls="search-results-count"
         onKeyPress={(event) => {if (event.key === 'Enter') {
             navigate(`/search?keywords=${encodeURIComponent(event.target.value)}`)}}
           }
@@ -18,9 +18,8 @@ const SearchForm = ({ query }) => (
         style={{backgroundImage: `url(${searchicon})`, backgroundSize:`20px 20px`, backgroundRepeat:`no-repeat`}
         }
       />
-      
+      <label htmlFor="search-input" style={{display: 'none'}}>Search input</label>
     </form>
-    
     </div>
   );
 
