@@ -1,5 +1,5 @@
 ---
-date: "01-08-2019"
+date: "08-01-2019"
 title: "Elementary Cheatsheet"
 ---
 
