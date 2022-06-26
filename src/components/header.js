@@ -19,7 +19,8 @@ const Header = () => (
         blog
       </Link>
     </div>
-    <SearchForm />
+    <div></div>
+    {/* <SearchForm /> */}
   </header>
 );
 
