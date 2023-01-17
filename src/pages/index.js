@@ -6,7 +6,7 @@ import SEO from "../components/seo";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <p>Hello! I'm Sebastian Nørgaard.</p>
+    <p style={{marginBlockStart: 0}}>Hello! I'm Sebastian Nørgaard.</p>
     <p>
       A Software Engineer located in Odense, Denmark. Generally passionate
       about anything software-related, and highly dedicated to continously
