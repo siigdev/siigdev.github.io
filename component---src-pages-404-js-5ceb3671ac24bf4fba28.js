@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkSiigdev=self.webpackChunkSiigdev||[]).push([[883],{429:function(e,t,l){l.r(t);var n=l(7294),u=l(612),a=l(8183);t.default=()=>n.createElement(u.Z,null,n.createElement(a.Z,{title:"404: Not found"}),n.createElement("b",null,"Sorry..."),n.createElement("p",null,"The page was not found."))}}]);
+//# sourceMappingURL=component---src-pages-404-js-5ceb3671ac24bf4fba28.js.map
