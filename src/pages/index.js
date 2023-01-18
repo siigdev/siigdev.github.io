@@ -21,7 +21,7 @@ const IndexPage = () => (
       <a href="https://linkedin.com/in/sebastiannoergaard">LinkedIn</a>.
     </p>
     <p>
-      Or contact me at <a href="mailto:pwnage@live.dk">sebastian@tryp.dk</a>.
+      Or contact me at <a href="mailto:pwnage@live.dk">sebastian@tryp.com</a>.
     </p>
     <p></p>
   </Layout>
