@@ -13,7 +13,7 @@ const IndexPage = () => (
       improve and learn new and exciting technologies.
     </p>
     <p>
-      I am a founder of the disruptive multidestination online travel engine,{" "} <a href="https://tryp.com">Tryp.com</a>, where I dedicate my time managing the frontend development. I have prior professional experience in the full tech-stack working with large-scale, critical software systems for external clients. 
+      I am a founder of the disruptive multidestination online travel engine, <a href="https://tryp.com">Tryp.com</a>, where I dedicate my time managing the frontend development. I have prior professional experience in the full tech-stack working with large-scale, critical software systems for external clients. 
     </p>
     <p>
       You can find more information on{" "}
@@ -21,7 +21,7 @@ const IndexPage = () => (
       <a href="https://linkedin.com/in/sebastiannoergaard">LinkedIn</a>.
     </p>
     <p>
-      Or contact me at <a href="mailto:pwnage@live.dk">sebastian@tryp.com</a>.
+      Or contact me at <a href="mailto:sebastian@tryp.com">sebastian@tryp.com</a>.
     </p>
     <p></p>
   </Layout>

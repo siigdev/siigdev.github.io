@@ -1,9 +1,9 @@
 {
-  "name": "Siigdev",
+  "name": "siigdev",
   "private": true,
   "description": "Personal portfolio and blog by Software Engineer Sebastian, Siigdev.",
   "version": "0.1.0",
-  "author": "Sebastian Nørgaard <pwnage@live.dk>",
+  "author": "Sebastian Nørgaard <sebastian@tryp.com>",
   "dependencies": {
     "gatsby": "^5.11.0",
     "gatsby-plugin-image": "^3.5.0",

@@ -3,7 +3,7 @@ module.exports = {
     title: `Siigdev`,
     titleTemplate: "%s · Personal website and blog",
     description: `Personal portfolio and blog by Software Engineer Sebastian, Siigdev.`,
-    author: `Sebastian Nørgaard  <pwnage@live.dk>`,
+    author: `Sebastian Nørgaard  <sebastian@tryp.com>`,
     siteUrl: `https://www.siigdev.github.io`
   },
   plugins: [
